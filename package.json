@@ -1,0 +1,14 @@
+{
+  "name": "gh-oauth-server",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server",
+    "test": "CLIENT_ID=79987aa37689ade7af91 CLIENT_SECRET=76fa205c72311dee4b417deffbfd4de988d05c04 node app"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "multer": "^1.3.0",
+    "request": "^2.81.0"
+  }
+}
